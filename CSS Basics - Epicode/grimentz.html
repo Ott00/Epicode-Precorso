@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics - Epicode</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Serif&family=Prata&display=swap');
+
+        body{
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-section{
+            padding: 20px;
+        }
+
+        .main-section p a{
+            font-family: 'Montserrat', sans-serif;
+            font-style: italic;
+        }
+
+        .image-container{
+            background-image: url(https://images.unsplash.com/photo-1552605522-17e2bb2a9507?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+            height: 500px;
+            background-position: 100% 50%;
+            background-size: cover;
+        }
+
+        h1{
+            font-family: 'Prata', serif;
+            font-size: 64px;
+        }
+
+        h3{
+            font-family: 'Prata', serif;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        h1, h3{
+            margin-bottom: 0;
+        }
+
+        h6{
+            padding: 22px;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            color: white;
+            background-image: linear-gradient(to bottom right, #202124, #194781);
+            border-radius: 6px;
+        }
+
+        ul{
+            list-style-type: none; 
+            padding-left: 0;      
+        }
+
+        ul li{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px solid #dfdfdf;
+        }
+
+        ul li a{
+            color: #202124;
+            text-decoration: none;
+        }
+
+        ul li a:visited{
+            color: #194781;
+            text-decoration: none;
+        }
+        
+        .homepageBtn{
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .homepageBtn a{
+            display: inline-block;
+            padding: 12px;
+            background-color: #202124;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-section">
+        <div class="image-container"></div>
+        <h1>Grimentz</h1>
+        <h3>Catena delle Alpi</h3>
+        <p>Autore: <a href="https://unsplash.com/@sebastiengoldberg" target="_blank">Sébastien Goldberg</a></p>
+        <h6>Luoghi correlati</h6>
+        <ul>
+            <li><a href="./monte_bianco.html">Il Monte Bianco</a></li>
+            <li><a href="./cime_di_lavaredo.html">Le Cime di Lavaredo</a></li>
+            <li><a href="./zermatt.html">Zermatt</a></li>
+            <li><a href="./kitzbuhel.html">Kitzbuhel</a></li>
+        </ul>
+        <div class="homepageBtn">
+            <a href="./index.html">Torna alla homepage</a>
+        </div>
+    </div>
+</body>
+</html>
